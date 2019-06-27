@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "alias": [
+    "jwl.codes"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://github.com/$1"
+      }
+    }
+  ]
+}
